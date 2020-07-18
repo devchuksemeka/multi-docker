@@ -34,7 +34,13 @@
                 }
             ],
             "links":["client","server"],
-            "memory":1028
+            "memory":1028,
+            "mountPoints": [
+                {
+                  "containerPath": "/etc/nginx/conf.d",
+                  "readOnly": false
+                }
+              ]
         }
     ]
 }
