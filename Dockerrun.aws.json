@@ -37,8 +37,9 @@
             "memory":1028,
             "mountPoints": [
                 {
-                  "containerPath": "/etc/nginx/conf.d",
-                  "readOnly": false
+                    "sourceVolume": "/etc/nginx/conf.d",
+                    "containerPath": "/etc/nginx/conf.d",
+                    "readOnly": false
                 }
               ]
         }
